@@ -1,0 +1,34 @@
+{
+  "manifest": {
+    "apis": {
+      "custom": {
+        "endpoint": {
+          "uri": ""
+        },
+        "interfaces": [
+          {
+            "type": "AUDIO_PLAYER"
+          }
+        ]
+      }
+    },
+    "manifestVersion": "1.0",
+    "publishingInformation": {
+      "category": "MUSIC_AND_AUDIO_ACCESSORIES",
+      "distributionCountries": [],
+      "isAvailableWorldwide": true,
+      "locales": {
+        "en-US": {
+          "description": "Test Radio Player",
+          "examplePhrases": [
+            "Alexa open test radio player"
+          ],
+          "keywords": [],
+          "name": "Test Radio Player",
+          "summary": "Test Radio Player"
+        }
+      },
+      "testingInstructions": "Some testing instructions"
+    }
+  }
+}
